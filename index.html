@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CareerShineAcademy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.js"></script>
+  <script type="text/javascript" src="app/app.js"></script>
+</head>
+<body ng-app="careershine">
+
+  <div id="navbar">    
+    <nav class="navbar nav navbar-default navbar-static-top" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Career Shine Academy
+        </a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse-1">
+        <ul class="nav navbar-nav sf-menu">
+          <li><a ui-sref="home">Home</a></li>
+          <li><a ui-sref="home">About</a></li>
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Programs</a> 
+
+            <ul class="dropdown-menu">
+              <li><a href="programs.html#ProgramChart">General Management Courses</a></li>
+              <li><a href="programs.html#ProgramChart">Sales &amp; Marketing Courses</a></li>
+              <li><a href="programs.html#ProgramChart">Human Resource Management Courses</a></li>
+              <li><a href="programs.html#ProgramChart">International Business Courses</a></li>
+              <li><a href="programs.html#ProgramChart">Logistics &amp; Supply Chain Management Courses</a></li>
+              <li><a href="programs.html#ProgramChart">Senior Management Courses</a></li>
+              <li><a href="programs.html#ProgramChart">Business Analytics Courses</a></li>
+              <li><a href="programs.html#ProgramChart">Strategic Management Courses</a></li>
+              <li><a href="programs.html#ProgramChart">Customer Service Management Courses</a></li>           
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Academic Partners</a>
+            <ul class="dropdown-menu">
+              <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">IIM Calcutta</a>
+                <ul class="dropdown-menu">
+                  <li><a href="IIMCalcutta.html#EPBM">Executive Program in Business Management (EPBM)</a></li>
+                  <li><a href="IIMCalcutta.html#EPYM">Executive Program for Young Managers (EPYM)</a></li>
+                  <li><a href="IIMCalcutta.html#EPGBM">Executive Program in Global Business Management (EPGBM)</a></li>
+                  <li><a href="IIMCalcutta.html#EPSM">Executive Program in Sales &amp; Marketing (EPSM)</a></li>
+                  <li><a href="IIMCalcutta.html#EPHRM">Executive Program in Human Resource Management (EPHRM)</a></li>
+                  <li><a href="IIMCalcutta.html#EPIB">Executive Program In International Business (EPIB)</a></li>
+                  <li><a href="IIMCalcutta.html#EPBMI">Executive Program in Business Management - International (EPBMI)</a></li>
+                  <li><a href="IIMCalcutta.html#EPLM">Executive Programme in Leadership &amp; Management (EPLM)</a></li>
+                  <li><a href="IIMCalcutta.html#EPBA">Executive Programme in Business Analytics (EPBA)</a></li>
+
+                </ul>
+              </li>
+              <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">IIM Kozhikode</a>
+                <ul class="dropdown-menu">
+                  <li><a href="IIMKozhikode.html#EPGCMM">Executive Post Graduate Certificate in Marketing Management (EPGCMM)</a></li>
+                  <li><a href="IIMKozhikode.html#EPGCSM">Executive Post Graduate Certificate in Strategic Management (EPGCSM)</a></li>
+
+                </ul>
+              </li>
+              <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">XLRI Jamshedpur</a>
+                <ul class="dropdown-menu">
+                  <li><a href="XLRIJamshedpur.html#PGCBM">Post Graduate Certificate in Business Management (PGCBM)</a></li>
+                  <li><a href="XLRIJamshedpur.html#PGCHRM">Post Graduate Certificate in Human Resource Management (PGCHRM)</a></li>
+                  <li><a href="XLRIJamshedpur.html#CPHRD">Certificate Program In Human Resources Development(CPHRD)</a></li>
+
+                </ul>
+              </li>
+              <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">IIFT New Delhi</a>
+                <ul class="dropdown-menu">
+                  <li><a href="IIFTNewDelhi.html#EPGDIB">Executive Post Graduate Diploma in International Business (EPGDIB)</a></li>
+                </ul>
+              </li>
+              <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">IIM Rohtak</a>
+                <ul class="dropdown-menu">
+                  <li><a href="IIMRohtak.html#EPGDM">Executive Post Graduate Diploma in Management (EPGDM)</a></li>
+                  <li><a href="IIMRohtak.html#CPCSM">Certificate Program In Consumer Sales Management (CPCSM)</a></li>
+                  <li><a href="IIMRohtak.html#CPRSCSM">Certificate Program In Retail Supply Chain And Service Management (CPRSCSM)</a></li>
+                  <li><a href="IIMRohtak.html#CSM">Certificate Program In Customer Service Management (CSM)</a></li>
+                </ul>
+              </li>                         
+            </ul>
+          </li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="container">
+
+    <div ui-view></div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
