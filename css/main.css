@@ -55,10 +55,10 @@
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
- 
+
   background-color: #08508e;
-    text-decoration: none;
-    color: #ffffff;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .navbar-nav .open .dropdown-menu {
@@ -97,53 +97,203 @@ li.dropdown.open {
 }
 
 .sf-menu, .sf-menu * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .sf-menu>li {
-    float: left;
+  float: left;
 }
 
 .sf-menu li {
-    position: relative;
-    white-space: nowrap;
-    -webkit-transition: background .2s;
-    transition: background .2s;
+  position: relative;
+  white-space: nowrap;
+  -webkit-transition: background .2s;
+  transition: background .2s;
 }
 
 .nav>li {
-    display: block;
-    position: relative;
+  display: block;
+  position: relative;
 }
 
 .nav>li>a {
-    color: #fff;
+  color: #fff;
 }
 
 .nav>li>a {
-    display: block;
-    padding: 17px 12px;
-    position: relative;
-    color: #ffffff !important;
-    text-transform: uppercase;
-    font-family: Lato,sans-serif;
-    font-size: 12px;
-    font-weight: 500;
+  display: block;
+  padding: 17px 12px;
+  position: relative;
+  color: #ffffff !important;
+  text-transform: uppercase;
+  font-family: Lato,sans-serif;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 
 .nav>li>a : active, .nav>li>a : focus, .nav>li>a : hover {
-    background-color: #08508e;
-    text-decoration: none;
-    color: #ffffff;
+  background-color: #08508e;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 
 .navbar-default .navbar-brand {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .navbar-default .navbar-brand : focus , .navbar-default .navbar-brand : hover, .navbar-default .navbar-brand : active {
-    color: #ffffff;
+  color: #ffffff;
+}
+
+.carousel-img{
+  min-height: 400px;
+}
+
+.carousel-control.right {
+  background-image: none !important;
+}
+
+.carousel-control.left {
+  background-image: none !important;
+}
+
+@media (max-width: 1366px)
+.banner-btm-w3layouts, .gallery, .team, .services-agileits, .contact, .cir_agile_info, .newsletter, .testimonials {
+    padding: 5em 0;
+}
+
+.services-agileits {
+    position: relative;
+}
+
+
+.services-agileits {
+    background: url(../images/bg.jpg)no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+     margin-top: 50px;
+}
+
+.service-grids {
+    text-align: center;
+    padding: 7em 1.5em 3em;
+}
+
+@media (max-width: 1366px)
+.services-agileits-w3layouts img {
+    width: 23em;
+}
+
+.services-agileits-w3layouts{
+  margin: 50px;
+}
+
+.services-agileits-w3layouts img {
+    position: absolute;
+    width: 27em;
+    bottom: -0.1em;
+    left: 0em;
+}
+
+.title{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 35px;
+    color: #303030;
+    font-weight: 400;
+    text-shadow: 2px 2px #bbbcbd;
+}
+
+.agileinfo_team_grid {
+    margin-top: 1em;
+}
+
+.test-top-wthree {
+    background: #303030;
+    padding: 16px;
+}
+
+.test-right-wthree {
+    float: left;
+    text-align: left;
+    background: #424242;
+    padding: 12px;
+    width: 83%;
+    border-radius: 11px;
+}
+
+.test-top-wthree h6 {
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.test-top-wthree p {
+    font-size: 15px;
+    color: #969696;
+    letter-spacing: 1px;
+}
+
+.test-bottom-w3-agile {
+    position: relative;
+    padding: 1.5em 1em 1em 5em;
+    text-align: left;
+}
+
+
+.test-bottom-w3-agile i {
+    color: #000;
+    font-size: 2.56em;
+    position: absolute;
+    left: -11px;
+    top: 25px;
+}
+
+p.para-agileits-w3layouts {
+    font-size: 17px;
+    color: #777;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+
+
+
+.panel-body ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+}
+
+.frt {
+    height: 250px!important;
+}
+
+.contact-bottom li, .frt .news-item, .frt_one li, .inner-page ul li, .modern-ticker ul, .sf-menu, .sf-menu * {
+    list-style: none;
+}
+
+.table-border-1 {
+    border: 1px solid #dcdcdc;
+    margin: 0 0 18px 0;
+}
+
+.table-border-1 tr {
+    border: 1px solid #dcdcdc;
+    align-content: center;
+    vertical-align: central;
+}
+
+.table-border-1 td {
+    border: 1px solid #dcdcdc;
+    height: 20px;
+    vertical-align: central;
+    padding: 10px;
 }

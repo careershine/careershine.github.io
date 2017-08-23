@@ -5,12 +5,27 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/0.11.2/angular-material.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RobotoDraft:300,400,500,700,400italic" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angular_material/0.11.2/angular-material.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/angular-material-icons/0.6.0/angular-material-icons.min.js"></script> 
   <script type="text/javascript" src="app/app.js"></script>
+  <script src="js/wow.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <base href="/">
 </head>
 <body ng-app="careershine">
 
@@ -30,79 +45,78 @@
       <div class="collapse navbar-collapse" id="navbar-collapse-1">
         <ul class="nav navbar-nav sf-menu">
           <li><a ui-sref="home">Home</a></li>
-          <li><a ui-sref="home">About</a></li>
+          <li><a ui-sref="about">About</a></li>
 
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Programs</a> 
 
             <ul class="dropdown-menu">
-              <li><a href="programs.html#ProgramChart">General Management Courses</a></li>
-              <li><a href="programs.html#ProgramChart">Sales &amp; Marketing Courses</a></li>
-              <li><a href="programs.html#ProgramChart">Human Resource Management Courses</a></li>
-              <li><a href="programs.html#ProgramChart">International Business Courses</a></li>
-              <li><a href="programs.html#ProgramChart">Logistics &amp; Supply Chain Management Courses</a></li>
-              <li><a href="programs.html#ProgramChart">Senior Management Courses</a></li>
-              <li><a href="programs.html#ProgramChart">Business Analytics Courses</a></li>
-              <li><a href="programs.html#ProgramChart">Strategic Management Courses</a></li>
-              <li><a href="programs.html#ProgramChart">Customer Service Management Courses</a></li>           
+              <li><a ui-sref="executive-programs">General Management Courses</a></li>
+              <li><a ui-sref="executive-programs">Sales &amp; Marketing Courses</a></li>
+              <li><a ui-sref="executive-programs">Human Resource Management Courses</a></li>
+              <li><a ui-sref="executive-programs">International Business Courses</a></li>
+              <li><a ui-sref="executive-programs">Logistics &amp; Supply Chain Management Courses</a></li>
+              <li><a ui-sref="executive-programs">Senior Management Courses</a></li>
+              <li><a ui-sref="executive-programs">Business Analytics Courses</a></li>
+              <li><a ui-sref="executive-programs">Strategic Management Courses</a></li>
+              <li><a ui-sref="executive-programs">Customer Service Management Courses</a></li>           
             </ul>
           </li>
           <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Academic Partners</a>
             <ul class="dropdown-menu">
               <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">IIM Calcutta</a>
                 <ul class="dropdown-menu">
-                  <li><a href="IIMCalcutta.html#EPBM">Executive Program in Business Management (EPBM)</a></li>
-                  <li><a href="IIMCalcutta.html#EPYM">Executive Program for Young Managers (EPYM)</a></li>
-                  <li><a href="IIMCalcutta.html#EPGBM">Executive Program in Global Business Management (EPGBM)</a></li>
-                  <li><a href="IIMCalcutta.html#EPSM">Executive Program in Sales &amp; Marketing (EPSM)</a></li>
-                  <li><a href="IIMCalcutta.html#EPHRM">Executive Program in Human Resource Management (EPHRM)</a></li>
-                  <li><a href="IIMCalcutta.html#EPIB">Executive Program In International Business (EPIB)</a></li>
-                  <li><a href="IIMCalcutta.html#EPBMI">Executive Program in Business Management - International (EPBMI)</a></li>
-                  <li><a href="IIMCalcutta.html#EPLM">Executive Programme in Leadership &amp; Management (EPLM)</a></li>
-                  <li><a href="IIMCalcutta.html#EPBA">Executive Programme in Business Analytics (EPBA)</a></li>
+                 <li class="activetwo"><a href="https://www.hugheseducation.com/iim-calcutta/epym">Executive Program for Young Managers</a> </li>
 
-                </ul>
-              </li>
-              <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">IIM Kozhikode</a>
-                <ul class="dropdown-menu">
-                  <li><a href="IIMKozhikode.html#EPGCMM">Executive Post Graduate Certificate in Marketing Management (EPGCMM)</a></li>
-                  <li><a href="IIMKozhikode.html#EPGCSM">Executive Post Graduate Certificate in Strategic Management (EPGCSM)</a></li>
+                 <li><a href="https://www.hugheseducation.com/iim-calcutta/epba">Executive Programme in Business Analytics</a> </li> 
+                 <li><a href="https://www.hugheseducation.com/iim-calcutta/eplm">Executive Programme in Leadership &amp; Management</a> </li> 
+                 <li><a ui-sref="EPBM">Executive Program in Business Management</a> </li>
+                 <li><a href="https://www.hugheseducation.com/iim-calcutta/epsm">Executive Program in Sales &amp; Marketing</a> </li> 
+                 <li><a href="https://www.hugheseducation.com/iim-calcutta/ephrm">Executive Program in Human Resource Management</a> </li> 
+                 <li><a href="https://www.hugheseducation.com/iim-calcutta/epgbm">Executive Program in Global Business Management</a> </li> 
 
-                </ul>
-              </li>
-              <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">XLRI Jamshedpur</a>
-                <ul class="dropdown-menu">
-                  <li><a href="XLRIJamshedpur.html#PGCBM">Post Graduate Certificate in Business Management (PGCBM)</a></li>
-                  <li><a href="XLRIJamshedpur.html#PGCHRM">Post Graduate Certificate in Human Resource Management (PGCHRM)</a></li>
-                  <li><a href="XLRIJamshedpur.html#CPHRD">Certificate Program In Human Resources Development(CPHRD)</a></li>
+               </ul>
+             </li>
+             <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">IIM Kozhikode</a>
+              <ul class="dropdown-menu">
+                <li><a href="IIMKozhikode.html#EPGCMM">Executive Post Graduate Certificate in Marketing Management (EPGCMM)</a></li>
+                <li><a href="IIMKozhikode.html#EPGCSM">Executive Post Graduate Certificate in Strategic Management (EPGCSM)</a></li>
 
-                </ul>
-              </li>
-              <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">IIFT New Delhi</a>
-                <ul class="dropdown-menu">
-                  <li><a href="IIFTNewDelhi.html#EPGDIB">Executive Post Graduate Diploma in International Business (EPGDIB)</a></li>
-                </ul>
-              </li>
-              <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">IIM Rohtak</a>
-                <ul class="dropdown-menu">
-                  <li><a href="IIMRohtak.html#EPGDM">Executive Post Graduate Diploma in Management (EPGDM)</a></li>
-                  <li><a href="IIMRohtak.html#CPCSM">Certificate Program In Consumer Sales Management (CPCSM)</a></li>
-                  <li><a href="IIMRohtak.html#CPRSCSM">Certificate Program In Retail Supply Chain And Service Management (CPRSCSM)</a></li>
-                  <li><a href="IIMRohtak.html#CSM">Certificate Program In Customer Service Management (CSM)</a></li>
-                </ul>
-              </li>                         
-            </ul>
-          </li>
-          <li><a href="#">Contacts</a></li>
-        </ul>
-      </div>
-    </nav>
-  </div>
-  <div class="container">
+              </ul>
+            </li>
+            <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">XLRI Jamshedpur</a>
+              <ul class="dropdown-menu">
+                <li><a href="XLRIJamshedpur.html#PGCBM">Post Graduate Certificate in Business Management (PGCBM)</a></li>
+                <li><a href="XLRIJamshedpur.html#PGCHRM">Post Graduate Certificate in Human Resource Management (PGCHRM)</a></li>
+                <li><a href="XLRIJamshedpur.html#CPHRD">Certificate Program In Human Resources Development(CPHRD)</a></li>
 
-    <div ui-view></div>
+              </ul>
+            </li>
+            <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">IIFT New Delhi</a>
+              <ul class="dropdown-menu">
+                <li><a href="IIFTNewDelhi.html#EPGDIB">Executive Post Graduate Diploma in International Business (EPGDIB)</a></li>
+              </ul>
+            </li>
+            <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">IIM Rohtak</a>
+              <ul class="dropdown-menu">
+                <li><a href="IIMRohtak.html#EPGDM">Executive Post Graduate Diploma in Management (EPGDM)</a></li>
+                <li><a href="IIMRohtak.html#CPCSM">Certificate Program In Consumer Sales Management (CPCSM)</a></li>
+                <li><a href="IIMRohtak.html#CPRSCSM">Certificate Program In Retail Supply Chain And Service Management (CPRSCSM)</a></li>
+                <li><a href="IIMRohtak.html#CSM">Certificate Program In Customer Service Management (CSM)</a></li>
+              </ul>
+            </li>                         
+          </ul>
+        </li>
+        <li><a href="#">Contacts</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+<div style="margin-top: -18px;">
 
-  </div>
+  <div ui-view></div>
+
+</div>
 
 
 

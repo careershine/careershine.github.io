@@ -1,6 +1,6 @@
-var careershine = angular.module('careershine', ['ui.router']);
+var careershine = angular.module('careershine', ['ui.router','ngMaterial']);
 
-careershine.config(function($stateProvider, $urlRouterProvider) {
+careershine.config(function($stateProvider, $urlRouterProvider,$locationProvider) {
 
     $urlRouterProvider.otherwise('/home');
 
@@ -14,7 +14,20 @@ careershine.config(function($stateProvider, $urlRouterProvider) {
 
         
         .state('about', {
-            // we'll get to this in a bit       
+            url: '/about',
+            templateUrl: 'views/about.html'    
+        })
+
+         .state('EPBM', {
+            url: '/EPBM',
+            templateUrl: 'views/EPBM.html'    
+        })
+
+        .state('executive-programs',{
+            url : '/executive-programs',
+            templateUrl : 'views/executive-programs.html'
         });
+
+        $locationProvider.html5Mode(true);
 
 });
